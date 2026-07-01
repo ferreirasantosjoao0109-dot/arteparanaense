@@ -1,8 +1,8 @@
 body{
-    background-color: rgba(0, 243, 81, 0.808) ;
+    background-color: rgba(247, 248, 248, 0.808) ;
 }
 header{
-    background-color: blue;
+    background-color: rgb(232, 232, 240);
 }
 main{
     background-color: rgb(226, 223, 10);
