@@ -1,5 +1,5 @@
-conts botao = documento.querySelector(#botaoMensagemInterativa);
-conts mensagem = documento.querySelector(#mensagemInterativa);
+conts botao = documento.querySelector("#botaoMensagemInterativa");
+conts mensagem = documento.querySelector("#mensagemInterativa");
 botao.addEventListener("click", mostrarMensagem);
 function mostrarMensagem();{
     mensagem.textContent =
