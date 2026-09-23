@@ -1,15 +1,15 @@
 conts botoesCurtir = document.querySelectorAll(".curtir");
 botoesCurtir.forEach(function(botaoCurtir){
-    let curtiu = false;
+    let curtir = false;
     botaoCurtir.addEventListener("cliclk", curtir);
     function curtir (){
         const contador = botaoCurtir.querySelector("span");
-        if(curtiu === false){
+        if(curtir === false){
             contador.textContent++;
-            curtiu = true;}
+            curtir = true;}
             else{
                 contador.textContent==;
-                curtiu = false;
+                curtir = false;
             }
  }
  
