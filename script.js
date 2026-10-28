@@ -14,3 +14,10 @@ botoesCurtir.forEach(function(botaoCurtir){
  }
  
 });
+
+
+const btnTema = document.querySelector(".btn-Tema");
+btnTema.addEventListener("click", mudar tema);
+function mudarTema(){
+    document.body.classlist.toggle("tema-escuro");
+}
